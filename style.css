@@ -1,46 +1,31 @@
-.img{
-padding: 20px;
- border-radius: 30px;
-    background-image: url('https://preview.uideck.com/items/gradient/assets/images/testimonial/testimonial-bg.svg');
+.section1{
+    padding: 50px;
+    background-color: gray;
 }
-.image{
+.d2{
     position: relative;
-    top: 70px;
+    left: -50px;
+    top: -30px;
 }
-.heading1{
-    padding: 150px;
+.section2{
+    background-color: gray;
+}
+.b1{
     position: relative;
-    left: 50px;
+    top: 10px;
 }
-.heading2{
-    padding: 150px;
-}
-.heading3{
-    padding: 100px;
-}
-.image2
-{
-    background-image: url('https://preview.uideck.com/items/gradient/assets/images/testimonial/testimonial-bg.svg');
-    padding:100px;
-}
-
-.image3{
-    background-image: url('https://preview.uideck.com/items/gradient/assets/images/cta/cta-bg.svg');
-}
-.f1{
+.b2{
     position: relative;
-    top: 30px;
+    top: 10px;
+    right: 200px;
 }
-.image5
-{
-    background-image: url('https://preview.uideck.com/items/gradient/assets/images/footer/footer-bg.svg');
-    padding: 80px;
-}
-.image4
-{
-    background: url('https://preview.uideck.com/items/gradient/assets/images/cta/cta-bg.svg')repeat;
+.b3{
     position: relative;
-    top: 60px;
-    padding:80px;
-    border-radius:20px
+    top: 10px;
+    right: 420px;
+}
+.b4{
+    position: relative;
+    top: 10px;
+    right: 630px;
 }

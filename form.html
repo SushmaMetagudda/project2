@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="form.css">
+
+  <script>
+    function button1()
+    {
+        text=document.getElementById("t1").value;
+        newText=text.charAt(0).toUpperCase()+text.slice(1);
+        document.getElementById("t1").value = newText;
+        count();
+        
+    }
+    function button2()
+    {
+        text = document.getElementById("t1").value;
+        newText = text.toLowerCase();
+        document.getElementById("t1").value = newText;
+        count();
+    }
+    function button3()
+    {
+        text = document.getElementById("t1").value;
+        newText=text.toUpperCase();
+        document.getElementById("t1").value = newText;
+        count();
+    }
+    function button4()
+    {
+        text=document.getElementById("t1").value;
+       newText=text.charAt(0).toUpperCase()+slice(1);
+        document.getElementById("t1").value = newText;
+       
+    }
+    function count()
+    {
+        text=document.getElementById("t1").value;
+        charCount=text.length;
+        wordCount=text.trim().split(/\s+/).length;
+        document.getElementById("c1").innerText = charCount;
+        document.getElementById("w1").innerText = wordCount;
+    }
+</script>
+
+  <section class="section1">
+    <div class="div1">
+    <h2>Accidentally left the caps lock on and typed something, but can't be bothered to start again and retype<br> it all?</h2>
+       <p>Simply enter your text and choose the case you want to convert it to.</p>
+      </div>
+      <br><br><br><br>
+      
+
+    <form onsubmit="event.preventDefault()">
+        <textarea name="" id="t1" cols="155" rows="10" placeholder="Type or paste your content here" ></textarea>
+    <br><br>
+    
+    <div>
+        <button onclick="button1()">Sentence case</button>
+        <button onclick="button2()">lower Case</button>
+        <button onclick="button3()">UPPER CASE</button>
+        <button onclick="button4()">Capitalized Case</button>
+    </div>
+    </form>
+    <br>
+    <div class="d1">
+        <div>
+            Character Count:<span id="c1">0</span>
+        
+        &nbsp;&nbsp;
+        
+            Word Count:<span id="w1">0</span>
+
+        </div>
+    </div>
+
+  </section>
+
+     
+</head>
+</html>

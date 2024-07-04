@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+let calculateSquareRoot = number => {
+    return Math.sqrt(number);
+}
+let input = prompt("Enter a number:");
+let number = parseFloat(input);
+if (isNaN(number)) {
+    alert("Please enter a valid number.");
+} else {
+    let squareRoot = calculateSquareRoot(number);
+    alert(`The square root of ${number} is ${squareRoot}.`);
+}
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
