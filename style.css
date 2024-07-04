@@ -1,0 +1,46 @@
+.img{
+padding: 20px;
+ border-radius: 30px;
+    background-image: url('https://preview.uideck.com/items/gradient/assets/images/testimonial/testimonial-bg.svg');
+}
+.image{
+    position: relative;
+    top: 70px;
+}
+.heading1{
+    padding: 150px;
+    position: relative;
+    left: 50px;
+}
+.heading2{
+    padding: 150px;
+}
+.heading3{
+    padding: 100px;
+}
+.image2
+{
+    background-image: url('https://preview.uideck.com/items/gradient/assets/images/testimonial/testimonial-bg.svg');
+    padding:100px;
+}
+
+.image3{
+    background-image: url('https://preview.uideck.com/items/gradient/assets/images/cta/cta-bg.svg');
+}
+.f1{
+    position: relative;
+    top: 30px;
+}
+.image5
+{
+    background-image: url('https://preview.uideck.com/items/gradient/assets/images/footer/footer-bg.svg');
+    padding: 80px;
+}
+.image4
+{
+    background: url('https://preview.uideck.com/items/gradient/assets/images/cta/cta-bg.svg')repeat;
+    position: relative;
+    top: 60px;
+    padding:80px;
+    border-radius:20px
+}
